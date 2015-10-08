@@ -1,6 +1,7 @@
 require 'fizzbuzz'
 require 'spec_helper'
 
+
 describe 'fizzbuzz' do
   it "returns 'fizz' when divisable by 3" do
     expect(fizzbuzz(3)).to eq('fizz')
